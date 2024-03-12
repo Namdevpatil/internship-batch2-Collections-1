@@ -1,0 +1,45 @@
+Problems with arrays?
+	- fixed in size?
+	- only support similar data type values
+	- it will not have predefined API(classes and interfaces).
+	
+Note: To overcome above problems we use Java Collection Framework/Collections
+	
+=> All Java Collections are part the 'java.util' package.
+
+Java Collections
+	- value based collections
+	- key-value based collections
+	
+- collections are not fixed in size?
+- support similar/dissimilar data type values
+- it will have predefined API(classes and interfaces).
+
+1. Value based collections,
+	
+	Collection:
+		- List(I)
+			- ArrayList(C)
+			- LinkedList(C)
+			- Vector(C)
+				- Stack
+			
+		- Set(I)
+			- HashSet(C)
+			- LinkedHashSet(C)
+			- TreeSet(C)
+			
+		- Queue(I)
+			- PriorityQueue(C)
+			- Dequeue(I)
+				- ArrayDeque(C)
+				
+2. Key-value based collections,
+	
+		Map(I)
+		 - HashMap(C)
+		 - LinkedHashMap(C)
+		 - TreeMap(C)
+		 - Hashtable(C)
+		 - EnumMap(C)
+		 - ConcurrentHashMap(C)
